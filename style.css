@@ -1,0 +1,47 @@
+:root{
+    --color: #ff6347;
+    --header: #424141;
+}
+.txt-header{
+    color: var(--header);
+}
+.col-img{
+    width: 100%;
+}
+.icon-main{
+    font-size: 35px;
+    color: var(--color);
+}
+.btn-outline-danger{
+    color: var(--color);
+    border-color: var(--color);
+}
+.btn-outline-danger:hover{
+    background-color: var(--color);
+    border-color: var(--color);
+    color: #fff;
+}
+.btn-danger{
+    background-color: var(--color);
+    border-color: var(--color);
+}
+.btn-danger:hover{
+    background-color: transparent;
+    border-color: var(--color);
+    color: var(--color);
+}
+.tut-links{
+    font-weight: bold;
+    font-size: larger;
+    text-decoration: none;
+    color: var(--header);
+}
+.tut-links:hover{
+    transition: .3s ease;
+    color: var(--color);
+}
+.card{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+}
